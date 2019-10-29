@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/zdjecia">
+        <file>znak_zapytania.jpg</file>
+    </qresource>
+</RCC>

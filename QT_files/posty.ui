@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Posty</class>
+ <widget class="QDialog" name="Posty">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background-color: #B22222;
+}
+</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_Posty">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>311</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox
+{
+	backgroud-color: #B22222;
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="pushButton_Dodaj">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #483D8B;
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color: red;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Dodaj</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_Post_uzytkownika">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>291</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPlainTextEdit{
+background-color: #FFA07A;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_wczytaj_posty">
+    <property name="geometry">
+     <rect>
+      <x>198</x>
+      <y>170</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: #483D8B;
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+QPushButton:pressed{
+	background-color: red;
+	border: 1px solid gray;
+	padding: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Wczytaj Posty</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
